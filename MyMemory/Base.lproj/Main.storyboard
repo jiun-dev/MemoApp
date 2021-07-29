@@ -186,11 +186,21 @@
                     </view>
                     <navigationItem key="navigationItem" title="메모 작성" id="svg-P4-GEJ">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="vHS-6W-62D"/>
-                            <barButtonItem title="저장" id="MAp-1l-oba"/>
+                            <barButtonItem systemItem="camera" id="vHS-6W-62D">
+                                <connections>
+                                    <action selector="pick:" destination="W20-v8-ygZ" id="XW5-mA-Hwy"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="저장" id="MAp-1l-oba">
+                                <connections>
+                                    <action selector="save:" destination="W20-v8-ygZ" id="CaC-LF-ehp"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="contents" destination="ibs-KZ-AlX" id="e5p-Xb-rzW"/>
+                        <outlet property="preview" destination="m7J-HK-Edp" id="9Z1-jw-yJQ"/>
                         <outlet property="writeMemo" destination="ibs-KZ-AlX" id="zMV-h6-2d2"/>
                     </connections>
                 </viewController>
