@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		B9A1B9B726B1736300412A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9B626B1736300412A54 /* AppDelegate.swift */; };
 		B9A1B9B926B1736300412A54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9B826B1736300412A54 /* SceneDelegate.swift */; };
-		B9A1B9BB26B1736300412A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9BA26B1736300412A54 /* ViewController.swift */; };
 		B9A1B9BE26B1736300412A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A1B9BC26B1736300412A54 /* Main.storyboard */; };
 		B9A1B9C126B1736300412A54 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9BF26B1736300412A54 /* MyMemory.xcdatamodeld */; };
 		B9A1B9C326B1736700412A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A1B9C226B1736700412A54 /* Assets.xcassets */; };
 		B9A1B9C626B1736700412A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A1B9C426B1736700412A54 /* LaunchScreen.storyboard */; };
+		B9A1B9D426B2C4AD00412A54 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9D326B2C4AD00412A54 /* MemoListVC.swift */; };
+		B9A1B9D626B2C4DF00412A54 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9D526B2C4DF00412A54 /* MemoFormVC.swift */; };
+		B9A1B9D826B2C50400412A54 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9D726B2C50400412A54 /* MemoReadVC.swift */; };
+		B9A1B9DA26B2C65200412A54 /* MemoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9D926B2C65200412A54 /* MemoCellTableViewCell.swift */; };
+		B9A1B9DC26B2C8CF00412A54 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1B9DB26B2C8CF00412A54 /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B9A1B9B326B1736300412A54 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A1B9B626B1736300412A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9A1B9B826B1736300412A54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9A1B9BA26B1736300412A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9A1B9BD26B1736300412A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9A1B9C026B1736300412A54 /* MyMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMemory.xcdatamodel; sourceTree = "<group>"; };
 		B9A1B9C226B1736700412A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9A1B9C526B1736700412A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9A1B9C726B1736700412A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A1B9D326B2C4AD00412A54 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		B9A1B9D526B2C4DF00412A54 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		B9A1B9D726B2C50400412A54 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		B9A1B9D926B2C65200412A54 /* MemoCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCellTableViewCell.swift; sourceTree = "<group>"; };
+		B9A1B9DB26B2C8CF00412A54 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				B9A1B9B626B1736300412A54 /* AppDelegate.swift */,
 				B9A1B9B826B1736300412A54 /* SceneDelegate.swift */,
-				B9A1B9BA26B1736300412A54 /* ViewController.swift */,
 				B9A1B9BC26B1736300412A54 /* Main.storyboard */,
 				B9A1B9C226B1736700412A54 /* Assets.xcassets */,
 				B9A1B9C426B1736700412A54 /* LaunchScreen.storyboard */,
 				B9A1B9C726B1736700412A54 /* Info.plist */,
 				B9A1B9BF26B1736300412A54 /* MyMemory.xcdatamodeld */,
+				B9A1B9D326B2C4AD00412A54 /* MemoListVC.swift */,
+				B9A1B9D526B2C4DF00412A54 /* MemoFormVC.swift */,
+				B9A1B9D726B2C50400412A54 /* MemoReadVC.swift */,
+				B9A1B9D926B2C65200412A54 /* MemoCellTableViewCell.swift */,
+				B9A1B9DB26B2C8CF00412A54 /* Memo.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -141,9 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9A1B9C126B1736300412A54 /* MyMemory.xcdatamodeld in Sources */,
-				B9A1B9BB26B1736300412A54 /* ViewController.swift in Sources */,
+				B9A1B9D626B2C4DF00412A54 /* MemoFormVC.swift in Sources */,
+				B9A1B9D826B2C50400412A54 /* MemoReadVC.swift in Sources */,
+				B9A1B9DC26B2C8CF00412A54 /* Memo.swift in Sources */,
 				B9A1B9B726B1736300412A54 /* AppDelegate.swift in Sources */,
+				B9A1B9D426B2C4AD00412A54 /* MemoListVC.swift in Sources */,
 				B9A1B9B926B1736300412A54 /* SceneDelegate.swift in Sources */,
+				B9A1B9DA26B2C65200412A54 /* MemoCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jiun.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jiun.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
